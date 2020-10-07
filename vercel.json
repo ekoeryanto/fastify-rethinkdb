@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "build": {
+    "env": {
+      "NODEJS_HELPERS": "0"
+    }
+  },
+  "routes": [
+    { "src": "/.*", "dest": "/api/index.js"}
+  ]
+}
